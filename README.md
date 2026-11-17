@@ -37,6 +37,17 @@ HN8145XR 是 FTTR 主猫：XG-PON / 10G EPON 上行，4GE + 1POTS + 1USB + 1 个
 
 `一键导出boardinfo和上传地区包XR专用.bat` 和 `一键HN8145XR降级R260.bat` 里写死了电脑地址 `192.168.1.8`，用之前必须改成自己的网段。脚本靠 VBS 模拟键盘输入，执行过程中不要动鼠标键盘。
 
+## 相关仓库
+
+同品牌其它机型，命令体系相近，排障时可以互相参照；每个仓库开头都对应一篇文章：
+
+- [华为 F30 工具包](https://github.com/dellzou/Huawei_F30_Flashing_Software_and_Tutorial)：华为 F30，改 SN、改 MAC、取超密
+- [华为 HN8145X6 工具包](https://github.com/dellzou/Huawei_HN8145X6_Flashing_Software_and_Tutorial)：华为 HN8145X6，补全 AllShell、改光模
+- [华为 K662D 工具包](https://github.com/dellzou/Huawei_K662D_Flashing_Software_and_Tutorial)：华为 K662D，从猫改光猫模式
+- [华为 V173-50 工具包](https://github.com/dellzou/Huawei_V173-50_Flashing_Software_and_Tutorial)：华为 V173-50，R24 装备包与 OBSCTool 日志
+- [华为 V173 工具包](https://github.com/dellzou/Huawei_V173_Flashing_Software_and_Tutorial)：华为 V173 主猫，补全 Shell、改公版、改 boardinfo
+- [华为 V175 工具包](https://github.com/dellzou/Huawei_V175_Flashing_Software_and_Tutorial)：华为 V175，R23 固件包开 Telnet
+
 ## 注意
 
 工具无签名，杀软会拦；刷固件中途断电可能起不来。只在自己或客户授权的设备上使用。
